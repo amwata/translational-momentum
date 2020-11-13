@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transational Momentum</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="styles/inputs.css">
+        <link rel="stylesheet" href="styles/ploader.css">
+    </head>
+    <body>
+        <div class="loader">
+        	<div><h1>A</h1></div>
+        </div>
+        <canvas id="c"></canvas>
+    	<div class="sliderctn">
+            <div class="sliderbox">
+            <span class="task">mass 1</span>
+                <input type="range" min="-2" max="6" step="1" value="-2" class ="slider m1">
+                <span class="val">10<sup class="vl"></sup></span>
+            </div>
+            <div class="sliderbox">
+            <span class="task">mass 2</span>
+                <input type="range" min="-2" max="6" step="1" value="4" class ="slider m2">
+                <span class="val">10<sup class="vl"></sup></span>
+            </div>
+            <div class="sliderbox">
+            <span class="task">vel</span>
+                <input type="range" min="0" max="5" step="1" value="2" class ="slider vel">
+                <span class="val vl"></span>
+            </div>
+        </div>
+        <script type="text/javascript" src ="scripts/momentum.js"></script>
+    </body>
+</html>
